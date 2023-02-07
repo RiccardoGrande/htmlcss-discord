@@ -326,9 +326,41 @@
 .plack_talk_icons{
 
     height: 90%;
-    background-color: rgb(255, 153, 0);
     width: 100%;
     margin-top: 1rem;
+}
+
+#placetotalk{
+
+    font-size: 25px;
+    color:  rgb(118, 82, 249)
+
+}
+
+#ita_flag,#ita_leng{
+
+    height: 12px;
+    font-size: 10px;
+    color: white;
+    margin-top: 10%;
+    vertical-align: bottom;
+
+}
+
+#brands,#icon_arrow_down{
+
+    color:white;
+
+}
+
+
+.social_link{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 41%;
+    margin-top: 3%;
+
 }
 
 .list{
@@ -349,7 +381,7 @@ li{
 
 #title_list{
 
-    color:  rgb(102, 64, 240)
+    color:  rgb(118, 82, 249)
 
 }
 
