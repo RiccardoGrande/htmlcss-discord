@@ -1,0 +1,286 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* <!-- start of header --> */
+
+/* .container is default set */
+
+.container{
+
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+/* <!-- container headbar --> */
+
+.flex_container{
+
+    height: 465px;
+    display: flex;
+    
+
+}
+
+/* <!-- content headbar --> */
+
+
+#headbar_container{
+
+    flex-direction: column;
+}
+
+#headbar{
+
+    height: 3.5rem;
+    background-color: rgb(0, 106, 255);
+    padding: 0.1rem;
+    
+
+}
+
+#headbar_content{
+
+    height: 2rem;
+    background-color: brown;
+    margin: 0.5rem 20%;
+    
+    display: flex;
+
+
+}
+
+
+.logo,.link,.login{
+
+    height: 100%;
+    background-color: rgb(118, 165, 42);
+    border: 1px dashed black;
+
+}
+
+.logo{
+
+    width: 20%;
+
+}
+
+.link{
+
+    width: 60%; 
+    text-align: center;
+
+}
+
+
+.login{
+
+    width: 20%;
+    text-align: right;
+}
+
+
+/* <!-- container box header --> */
+
+.header_box{
+
+    height: 350px;
+    width: 600px;
+    background-color: brown;
+    margin: 2% 30%;
+    
+
+}
+
+/* <!-- end of header --> */
+
+
+/* <!-- start of main --> */
+
+.flex_container,#place_invite,#fandom{
+
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* <!-- main container 1--> */
+
+/* <!-- first container flex structure --> */
+
+.place_invite_img,.fandom_img{
+
+    height: 80%;
+    background-color: blue;
+    width: 35rem;
+}
+
+.place_invite_text,.fandom_text{
+
+    height: 80%;
+    background-color: rgb(0, 255, 94);
+    width: 20rem;
+}
+
+/* <!-- main container 3--> */
+
+#voice_channel{
+
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: lightgrey;
+
+}
+
+/* <!-- container flex structure 3 --> */
+
+.voice_channel_text{
+
+    height: 80%;
+    background-color: blue;
+    width: 35rem;
+}
+
+.voice_channel_img{
+
+    height: 80%;
+    background-color: rgb(0, 255, 94);
+    width: 20rem;
+}
+
+/* <!-- main container 4--> */
+
+.container_tech_trust{
+
+    height: 700px;
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+/* <!-- container flex structure 4 --> */
+
+.flex_container_tech_trust{
+
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: lightgrey;
+
+}
+
+.tech_trust{
+
+    height: 90%;
+    background-color: rgb(0, 255, 94);
+    width: 60%;
+}
+
+/* <!-- end of main --> */
+
+/* start of footer */
+
+/* <!-- footer container --> */
+
+#container_place_talk{
+
+    background-color: rgb(33, 32, 32);
+
+}
+
+/* <!-- footer container structure --> */
+
+#place_talk{
+
+    margin: 0 20%;
+
+}
+
+.plack_talk_icons{
+
+    height: 90%;
+    background-color: rgb(255, 153, 0);
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.list{
+
+    height: 90%;
+    background-color: rgb(0, 255, 94);
+    width: 60%;
+    margin-top: 1rem;
+
+}
+
+.container_downbar{
+
+    
+    height: 85px;
+    background-color: rgb(33, 32, 32);
+    border-top: 2px solid lightgray;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+/* <!-- footer downbar --> */
+
+.downbar{
+
+    height: 3.5rem;
+    background-color: rgb(0, 106, 255);
+    padding: 0.1rem;
+    width: 60%;
+    display: flex;
+    align-items: center;
+
+}
+
+/* <!-- downbar structure --> */
+
+.downbar_content{
+
+    height: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+.downbar_icon{
+
+    height: 100%;
+    background-color: rgb(118, 165, 42);
+    border: 1px dashed black;
+    padding: 10px;
+
+}
+
+/* <!-- end of footer --> */
+
+
+
+
+
+
+
+
+
+
