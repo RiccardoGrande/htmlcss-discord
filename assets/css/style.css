@@ -131,21 +131,31 @@ p{
 
     display: inline;
     text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
 
+}
+
+.fa-solid{
+
+    padding-right: 10px;
 }
 
 #download{
 
     position: absolute;
-    bottom: 50px;
-    left: 30px;
+    bottom: 95px;
+    left: 80px;
+    background-color: white;
 }
 
 #open_app{
 
     position: absolute;
-    bottom: 50px;
-    right: 30px;    
+    bottom: 95px;
+    right: 80px; 
+    color: white;  
+    background-color: black;
 
 }
 
