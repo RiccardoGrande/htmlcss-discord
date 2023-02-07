@@ -430,8 +430,21 @@ li{
     background-color: rgb(118, 165, 42);
     border: 1px dashed black;
     padding: 10px;
-
+    display: flex;
+    align-items: center;
 }
+
+#button_register{
+
+    background-color: rgba(119, 84, 243, 0.749);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+
+
 
 /* <!-- end of footer --> */
 
