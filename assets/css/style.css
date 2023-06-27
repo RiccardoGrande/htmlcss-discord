@@ -1,14 +1,14 @@
-*{
+* {
 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  
+
 
 
 }
 
-body{
+body {
 
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
@@ -19,64 +19,64 @@ body{
 
 /* .container is default set */
 
-.container{
+.container {
 
-    max-width: 1400px;
+
     margin: auto;
-    
+
 }
 
 /* <!-- container headbar --> */
 
-.flex_container{
+.flex_container {
 
     height: 465px;
     display: flex;
-    
+
 
 }
 
 /* <!-- content headbar --> */
-#header_slide{
+#header_slide {
 
     background-image: url('../img/jumbo.png');
     background-size: cover;
 
 }
 
-#headbar_container{
+#headbar_container {
 
     flex-direction: column;
 }
 
-#headbar{
+#headbar {
 
     height: 3.5rem;
     padding: 0.1rem;
-    
+
 
 }
 
-#headbar_content{
+#headbar_content {
 
     height: 2rem;
-    margin: 0.5rem 15%; 
+    margin: 0.5rem 15%;
     display: flex;
 
 
 }
 
 
-.logo{
+.logo {
 
     width: 10%;
 
 }
 
 
-.link{
+.link {
 
-    width: 20%; 
+    width: 20%;
     text-align: center;
     font-size: 10px;
     color: white;
@@ -85,7 +85,7 @@ body{
 }
 
 
-.login{
+.login {
 
     width: 10%;
     text-align: center;
@@ -100,7 +100,7 @@ body{
 
 /* <!-- container box header --> */
 
-.header_box{
+.header_box {
 
     height: 350px;
     width: 600px;
@@ -109,10 +109,11 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    
+
 }
 
-.title_talk,.talk_description{
+.title_talk,
+.talk_description {
 
     text-align: center;
     padding: 20px;
@@ -120,20 +121,21 @@ body{
 
 }
 
-.title_talk{
+.title_talk {
 
     font-size: 45px;
-    
+
 }
 
-.talk_description{
+.talk_description {
 
     font-size: 15px;
     line-height: 1.6;
 
 }
 
-#download,#open_app{
+#download,
+#open_app {
 
     display: inline;
     text-align: center;
@@ -142,12 +144,12 @@ body{
 
 }
 
-.fa-solid{
+.fa-solid {
 
     padding-right: 10px;
 }
 
-#download{
+#download {
 
     position: absolute;
     bottom: 95px;
@@ -155,12 +157,12 @@ body{
     background-color: white;
 }
 
-#open_app{
+#open_app {
 
     position: absolute;
     bottom: 95px;
-    right: 80px; 
-    color: white;  
+    right: 80px;
+    color: white;
     background-color: black;
 
 }
@@ -170,7 +172,9 @@ body{
 
 /* <!-- start of main --> */
 
-.flex_container,#place_invite,#fandom{
+.flex_container,
+#place_invite,
+#fandom {
 
 
     justify-content: center;
@@ -183,26 +187,28 @@ body{
 
 /* <!-- first container flex structure --> */
 
-.place_invite_img,.fandom_img{
+.place_invite_img,
+.fandom_img {
 
-    height: 80%;  
+    height: 80%;
     width: 35rem;
     display: flex;
 }
 
-.img_detail{
+.img_detail {
 
     height: 300px;
 
 }
 
-.place_invite_text,.fandom_text{
+.place_invite_text,
+.fandom_text {
 
     height: 80%;
     width: 20rem;
 }
 
-.title{
+.title {
 
     font-size: 32px;
     line-height: 1.5;
@@ -210,7 +216,7 @@ body{
 }
 
 
-.description{
+.description {
 
     font-size: 15px;
     line-height: 1.5;
@@ -220,9 +226,9 @@ body{
 
 /* <!-- main container 3--> */
 
-#voice_channel{
+#voice_channel {
 
-    
+
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
@@ -232,13 +238,13 @@ body{
 
 /* <!-- container flex structure 3 --> */
 
-.voice_channel_text{
+.voice_channel_text {
 
     height: 80%;
     width: 35rem;
 }
 
-.voice_channel_img{
+.voice_channel_img {
 
     height: 80%;
     width: 20rem;
@@ -246,17 +252,17 @@ body{
 
 /* <!-- main container 4--> */
 
-.container_tech_trust{
+.container_tech_trust {
 
     height: 700px;
-    max-width: 1400px;
+
     margin: auto;
-    
+
 }
 
 /* <!-- container flex structure 4 --> */
 
-.flex_container_tech_trust{
+.flex_container_tech_trust {
 
     height: 700px;
     display: flex;
@@ -266,7 +272,7 @@ body{
 
 }
 
-.tech_trust{
+.tech_trust {
 
     height: 90%;
     width: 60%;
@@ -274,30 +280,31 @@ body{
     flex-direction: column;
 }
 
-#title_tech,#descript_tech{
+#title_tech,
+#descript_tech {
 
     text-align: center;
 }
 
-#just_chillin{
+#just_chillin {
 
     height: 400px;
 
 }
 
-#stars{
+#stars {
 
     margin: 0 25%;
 
 }
 
 
-#ready{
+#ready {
     text-align: center;
 
 }
 
-#download_down{
+#download_down {
 
     background-color: rgba(119, 84, 243, 0.749);
     color: white;
@@ -314,7 +321,7 @@ body{
 
 /* <!-- footer container --> */
 
-#container_place_talk{
+#container_place_talk {
 
     background-color: rgb(33, 32, 32);
 
@@ -322,27 +329,27 @@ body{
 
 /* <!-- footer container structure --> */
 
-#place_talk{
+#place_talk {
 
     margin: 0 20%;
 
 }
 
-.plack_talk_icons{
+.plack_talk_icons {
 
     height: 90%;
     width: 100%;
     margin-top: 1rem;
 }
 
-#placetotalk{
+#placetotalk {
 
     font-size: 25px;
-    color:  rgb(118, 82, 249)
-
+    color: rgb(118, 82, 249)
 }
 
-#ita_flag,#ita_leng{
+#ita_flag,
+#ita_leng {
 
     height: 12px;
     font-size: 10px;
@@ -352,14 +359,15 @@ body{
 
 }
 
-#brands,#icon_arrow_down{
+#brands,
+#icon_arrow_down {
 
-    color:white;
+    color: white;
 
 }
 
 
-.social_link{
+.social_link {
 
     display: flex;
     justify-content: space-between;
@@ -368,7 +376,7 @@ body{
 
 }
 
-.list{
+.list {
 
     height: 90%;
     width: 60%;
@@ -376,7 +384,7 @@ body{
 
 }
 
-li{
+li {
 
     list-style: none;
     color: white;
@@ -384,29 +392,28 @@ li{
     font-size: 12px;
 }
 
-#title_list{
+#title_list {
 
-    color:  rgb(118, 82, 249)
-
+    color: rgb(118, 82, 249)
 }
 
-.container_downbar{
+.container_downbar {
 
-    
+
     height: 85px;
     background-color: rgb(33, 32, 32);
     border-top: 2px solid lightgray;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    max-width: 1400px;
+
     margin: auto;
 
 }
 
 /* <!-- footer downbar --> */
 
-.downbar{
+.downbar {
 
     height: 3.5rem;
     padding: 0.1rem;
@@ -418,7 +425,7 @@ li{
 
 /* <!-- downbar structure --> */
 
-.downbar_content{
+.downbar_content {
 
     height: 2rem;
     display: flex;
@@ -428,7 +435,7 @@ li{
 }
 
 
-.downbar_icon{
+.downbar_icon {
 
     height: 100%;
     padding: 10px;
@@ -436,7 +443,7 @@ li{
     align-items: center;
 }
 
-#button_register{
+#button_register {
 
     background-color: rgba(119, 84, 243, 0.749);
     color: white;
@@ -444,19 +451,9 @@ li{
     border-radius: 25px;
     padding: 10px;
     border: none;
-    
+
 }
 
 
 
 /* <!-- end of footer --> */
-
-
-
-
-
-
-
-
-
-
